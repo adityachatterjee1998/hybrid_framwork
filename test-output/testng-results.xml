@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hybrid_Framwork" duration-ms="106363" started-at="2020-12-15T12:51:26Z" finished-at="2020-12-15T12:53:12Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test1" duration-ms="106363" started-at="2020-12-15T12:51:26Z" finished-at="2020-12-15T12:53:12Z">
+      <class name="com.hybrid.testCase.TC_LoginText_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hybrid.testCase.TC_LoginText_001@f6c48ac]" name="setup" is-config="true" duration-ms="32278" started-at="2020-12-15T12:51:29Z" finished-at="2020-12-15T12:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.hybrid.testCase.TC_LoginText_001@f6c48ac]" name="loginTest" duration-ms="21396" started-at="2020-12-15T12:52:01Z" finished-at="2020-12-15T12:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hybrid.testCase.TC_LoginText_001@f6c48ac]" name="tearDown" is-config="true" duration-ms="1210" started-at="2020-12-15T12:52:23Z" finished-at="2020-12-15T12:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hybrid.testCase.TC_LoginText_001 -->
+      <class name="com.hybrid.testCase.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hybrid.testCase.TC_AddCustomerTest_003@13deb50e]" name="setup" is-config="true" duration-ms="16287" started-at="2020-12-15T12:52:24Z" finished-at="2020-12-15T12:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.hybrid.testCase.TC_AddCustomerTest_003@13deb50e]" name="addNewCustomer" duration-ms="31368" started-at="2020-12-15T12:52:40Z" finished-at="2020-12-15T12:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hybrid.testCase.TC_AddCustomerTest_003@13deb50e]" name="tearDown" is-config="true" duration-ms="901" started-at="2020-12-15T12:53:11Z" finished-at="2020-12-15T12:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hybrid.testCase.TC_AddCustomerTest_003 -->
+    </test> <!-- BankingApp Test1 -->
+  </suite> <!-- Hybrid_Framwork -->
+</testng-results>
